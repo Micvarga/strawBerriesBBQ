@@ -6,3 +6,6 @@
   background: url("/img/cuttingBoard2.jpg");
   background-size: cover;
   background-position: center; }
+
+.site-footer {
+  background-color: red; }

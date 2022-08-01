@@ -39,7 +39,8 @@ h2 {
   font-family: 'Roboto Slab', serif;
   font-weight: 900;
   color: whitesmoke;
-  box-shadow: 10px 10px 5px grey; }
+  box-shadow: 10px 10px 5px grey;
+  border: black, solid; }
   .card #eventCardTitle {
     text-decoration: underline;
     color: whitesmoke; }

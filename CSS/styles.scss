@@ -24,8 +24,6 @@ $color-green: #38b000;
     background-color: #bc4749;
 }
 
-.navbar-toggler {}
-
 .site-footer {
     background-color: #d90429;
 }
@@ -56,6 +54,7 @@ h2 {
     font-weight: 900;
     color: $color-secondary;
     box-shadow: 10px 10px 5px grey;
+    border: black, solid;
 
     #eventCardTitle {
         text-decoration: underline;

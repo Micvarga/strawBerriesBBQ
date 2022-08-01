@@ -2,20 +2,31 @@
   width: 100% !important;
   height: 50vh; }
 
+.site-footer {
+  background-image: linear-gradient(whitesmoke, #bc4749);
+  padding: 20px 0; }
+
 .jumbotron {
   background: url("/img/cuttingBoard2.jpg");
   background-size: cover;
   background-position: center; }
 
 .navbar {
-  background-color: #0b090a; }
+  background-color: #bc4749; }
 
 .site-footer {
   background-color: #d90429; }
 
 h1 {
   font-family: 'Roboto Slab', serif;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #bc4749; }
+
+#eventHeader {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  color: #bc4749;
+  text-decoration: underline; }
 
 h2 {
   font-family: 'Roboto Slab', serif;
@@ -26,9 +37,9 @@ h2 {
   background-size: cover;
   background-position: center;
   font-family: 'Roboto Slab', serif;
-  font-weight: 800;
-  color: #d90429;
+  font-weight: 900;
+  color: whitesmoke;
   box-shadow: 10px 10px 5px grey; }
   .card #eventCardTitle {
     text-decoration: underline;
-    color: white; }
+    color: whitesmoke; }

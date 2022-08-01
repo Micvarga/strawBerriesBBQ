@@ -1,7 +1,17 @@
 //this code helps keep all carousel imgs the same size
+$color-primary: #bc4749;
+$color-secondary: whitesmoke;
+$color-green: #38b000;
+
+
 .w-100 {
     width: 100% !important;
     height: 50vh;
+}
+
+.site-footer {
+    background-image: linear-gradient($color-secondary, $color-primary);
+    padding: 20px 0;
 }
 
 .jumbotron {
@@ -11,8 +21,10 @@
 }
 
 .navbar {
-    background-color: #0b090a;
+    background-color: #bc4749;
 }
+
+.navbar-toggler {}
 
 .site-footer {
     background-color: #d90429;
@@ -21,6 +33,14 @@
 h1 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
+    color: $color-primary;
+}
+
+#eventHeader {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: $color-primary;
+    text-decoration: underline;
 }
 
 h2 {
@@ -33,12 +53,12 @@ h2 {
     background-size: cover;
     background-position: center;
     font-family: 'Roboto Slab', serif;
-    font-weight: 800;
-    color: #d90429;
+    font-weight: 900;
+    color: $color-secondary;
     box-shadow: 10px 10px 5px grey;
 
     #eventCardTitle {
         text-decoration: underline;
-        color: white;
+        color: $color-secondary;
     }
 }

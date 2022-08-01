@@ -9,3 +9,16 @@
 
 .site-footer {
   background-color: red; }
+
+.card {
+  background: url("/img/cuttingBoard2.jpg");
+  background-size: cover;
+  background-position: center; }
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700; }
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-style: italic; }

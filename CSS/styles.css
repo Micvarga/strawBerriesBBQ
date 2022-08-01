@@ -7,13 +7,11 @@
   background-size: cover;
   background-position: center; }
 
-.site-footer {
-  background-color: red; }
+.navbar {
+  background-color: #0b090a; }
 
-.card {
-  background: url("/img/cuttingBoard2.jpg");
-  background-size: cover;
-  background-position: center; }
+.site-footer {
+  background-color: #d90429; }
 
 h1 {
   font-family: 'Roboto Slab', serif;
@@ -22,3 +20,15 @@ h1 {
 h2 {
   font-family: 'Roboto Slab', serif;
   font-style: italic; }
+
+.card {
+  background: url("/img/cuttingBoard2.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 800;
+  color: #d90429;
+  box-shadow: 10px 10px 5px grey; }
+  .card #eventCardTitle {
+    text-decoration: underline;
+    color: white; }

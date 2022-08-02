@@ -8,12 +8,14 @@
   background-position: center; }
 
 .navbar {
-  background-color: #bc4749; }
+  background-color: #bc4749;
+  border: 2px solid black; }
 
 .site-footer {
   background-color: #d90429; }
 
-h1 {
+h1,
+h2 {
   font-family: "Roboto Slab", sans;
   font-weight: 700;
   color: #bc4749; }

@@ -21,13 +21,15 @@ $body-font: "Caveat", cursive;
 
 .navbar {
     background-color: #bc4749;
+    border: 2px solid black;
 }
 
 .site-footer {
     background-color: #d90429;
 }
 
-h1 {
+h1,
+h2 {
     font-family: $header-font;
     font-weight: 700;
     color: $color-primary;

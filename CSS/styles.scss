@@ -3,16 +3,15 @@ $color-primary: #bc4749;
 $color-secondary: whitesmoke;
 $color-green: #38b000;
 
+$header-font: "Roboto Slab", sans;
+$body-font: "Caveat", cursive;
+
 
 .w-100 {
     width: 100% !important;
     height: 50vh;
 }
 
-.site-footer {
-    background-image: linear-gradient($color-secondary, $color-primary);
-    padding: 20px 0;
-}
 
 .jumbotron {
     background: url('/img/cuttingBoard2.jpg');
@@ -29,20 +28,27 @@ $color-green: #38b000;
 }
 
 h1 {
-    font-family: 'Roboto Slab', serif;
+    font-family: $header-font;
     font-weight: 700;
     color: $color-primary;
 }
 
+#teamHeader {
+    font-family: $header-font;
+    font-weight: 700;
+    color: $color-primary;
+    text-decoration: underline;
+}
+
 #eventHeader {
-    font-family: 'Roboto Slab', serif;
+    font-family: $header-font;
     font-weight: 700;
     color: $color-primary;
     text-decoration: underline;
 }
 
 h2 {
-    font-family: 'Roboto Slab', serif;
+    font-family: $header-font;
     font-style: italic;
 }
 
@@ -50,7 +56,7 @@ h2 {
     background: url('/img/cuttingBoard2.jpg');
     background-size: cover;
     background-position: center;
-    font-family: 'Roboto Slab', serif;
+    font-family: $header-font;
     font-weight: 900;
     color: $color-secondary;
     box-shadow: 10px 10px 5px grey;
@@ -59,5 +65,30 @@ h2 {
     #eventCardTitle {
         text-decoration: underline;
         color: $color-secondary;
+    }
+}
+
+.site-footer {
+    background-image: linear-gradient($color-secondary, $color-primary);
+    padding: 20px 0;
+}
+
+#companyBio {
+    font-family: $header-font;
+
+    p {
+        font-family: $body-font;
+        font-weight: 600;
+        font-size: x-large;
+    }
+}
+
+#teamBio {
+    font-family: $header-font;
+
+    p {
+        font-family: $body-font;
+        font-weight: 700;
+        font-size: larger;
     }
 }

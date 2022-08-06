@@ -28,10 +28,6 @@ $body-font: "Caveat", cursive;
     border: 1px solid black;
 }
 
-.site-footer {
-    background-color: #d90429;
-}
-
 h1,
 h2 {
     font-family: $header-font;
@@ -75,8 +71,9 @@ h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient($color-secondary, $color-primary);
+    background-color: $color-primary;
     padding: 20px 0;
+    border: 2px solid black;
 }
 
 #companyBio {
@@ -97,4 +94,19 @@ h2 {
         font-weight: 700;
         font-size: larger;
     }
+}
+
+#menuContent {
+
+    h5,
+    {
+    font-family: $body-font ;
+    font-weight: 800;
+}
+
+p {
+    font-family: $body-font;
+    font-size: larger;
+    font-weight: 500;
+}
 }

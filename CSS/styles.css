@@ -14,9 +14,6 @@
 #navButton {
   border: 1px solid black; }
 
-.site-footer {
-  background-color: #d90429; }
-
 h1,
 h2 {
   font-family: "Roboto Slab", sans;
@@ -53,8 +50,9 @@ h2 {
     color: whitesmoke; }
 
 .site-footer {
-  background-image: linear-gradient(whitesmoke, #bc4749);
-  padding: 20px 0; }
+  background-color: #bc4749;
+  padding: 20px 0;
+  border: 2px solid black; }
 
 #companyBio {
   font-family: "Roboto Slab", sans; }
@@ -69,3 +67,12 @@ h2 {
     font-family: "Caveat", cursive;
     font-weight: 700;
     font-size: larger; }
+
+#menuContent h5 {
+  font-family: "Caveat", cursive;
+  font-weight: 800; }
+
+#menuContent p {
+  font-family: "Caveat", cursive;
+  font-size: larger;
+  font-weight: 500; }

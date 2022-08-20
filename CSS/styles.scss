@@ -6,13 +6,6 @@ $color-green: #38b000;
 $header-font: "Roboto Slab", sans;
 $body-font: "Caveat", cursive;
 
-
-.w-100 {
-    width: 100% !important;
-    height: 50vh;
-}
-
-
 .jumbotron {
     background: url('/img/cuttingBoard2.jpg');
     background-size: cover;
@@ -110,3 +103,20 @@ p {
     font-weight: 500;
 }
 }
+
+.w-100 {
+    width: 100% !important;
+    height: 50vh;
+}
+
+.carousel-item {
+    overflow: hidden;
+    height: 60vh;
+}
+}
+
+@media screen and (max-width:1500px) and (min-width:601px) {
+    .w-100 {
+        width: 100% !important;
+        height: 60vh;
+    }

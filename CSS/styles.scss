@@ -20,6 +20,16 @@ $body-font: "Caveat", cursive;
 
 }
 
+@media screen and (min-width:960px) {
+    #menuBackground {
+        background: url('/img/MenuBackground2.jpg');
+        background-position-x: right;
+        background-position-y: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
 #aboutUsContent {
     background: url('/img/pinkButcherPaper.jpg');
     border: 3px solid black;

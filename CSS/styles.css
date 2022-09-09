@@ -3,6 +3,19 @@
   background-size: cover;
   background-position: center; }
 
+#aboutUsBackground {
+  background: url("/img/cuttingBoard2.jpg");
+  background-size: cover;
+  background-position: center; }
+
+#aboutUsContent {
+  background: url("/img/pinkButcherPaper.jpg");
+  border: 3px solid black; }
+
+#aboutUsTitle {
+  color: whitesmoke;
+  text-decoration: underline; }
+
 .navbar {
   background-color: #C73E48;
   border: 2px solid black; }
@@ -19,7 +32,7 @@ h2 {
 #teamHeader {
   font-family: "Roboto Slab", sans;
   font-weight: 700;
-  color: #C73E48;
+  color: whitesmoke;
   text-decoration: underline; }
 
 #eventHeader {

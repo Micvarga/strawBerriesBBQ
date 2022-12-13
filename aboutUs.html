@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="CSS/styles.css">
-
-    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <!-- endbuild -->
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
@@ -20,7 +19,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body id="aboutUsBackground">
     <header class="jumbotron jumbotron-fluid mb-0">
         <div class="container">
             <div class="row">
@@ -70,52 +69,83 @@
         </div>
     </nav>
 
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">About Us</li>
-        </ol>
-    </nav>
+    <div class="my-0">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">About Us</li>
+            </ol>
+        </nav>
+    </div>
 
-    <div class="container">
+
+    <div class="container mt-0 mb-2" id="aboutUsContent">
         <div class="row" id="companyBio">
-            <div class="col">
-                <h1>About Strawberries BBQ</h1>
+            <div class="col text-center mb-3">
+                <h1 id="aboutUsTitle">About Strawberries BBQ</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta adipisci et vitae ratione
                     perspiciatis laudantium assumenda alias, corrupti totam illo vel quia ad rerum ipsa quasi, ipsum
                     neque repellendus sequi.</p>
             </div>
         </div>
         <div class="row " id="teamHeader">
-            <div class="col">
-                <h2>The Team</h2>
+            <div class="col text-center mt-5">
+                <h2 id="aboutUsTitle">The Team</h2>
             </div>
         </div>
         <div class="row" id="teamBio">
-            <div class="col-12">
+            <div class="col-12 col-sm-6 mt-sm-4">
                 <img class=" d-flex mr-3 img-thumbnail" src="img/teamMember.jpg" alt="Breadcrumb Trail thumbnail">
             </div>
-            <div class="col">
-                <h4>John Doe#1</h4>
+            <div class="col mt-sm-4">
+                <h4>Team Member #1</h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci eum optio veritatis porro ipsa,
                     impedit laborum facere animi odit necessitatibus. Similique consequuntur perferendis, enim assumenda
                     autem cupiditate? Molestias, eaque corrupti.</p>
             </div>
         </div>
         <div class="row" id="teamBio">
-            <div class="col-12">
-                <img class=" d-flex mr-3 img-thumbnail" src="img/teamMember.jpg" alt="Breadcrumb Trail thumbnail">
+            <div class="col-12 col-sm-6 mt-sm-4 order-1 order-sm-2">
+                <img class=" d-flex mr-3 img-thumbnail" src="img/teamMember2.jpg" alt="Breadcrumb Trail thumbnail">
             </div>
-            <div class="col">
-                <h4>John Doe#1</h4>
+            <div class="col order-2 order-xl-0 mt-sm-4 order-sm-1">
+                <h4>Team Member #2</h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci eum optio veritatis porro ipsa,
                     impedit laborum facere animi odit necessitatibus. Similique consequuntur perferendis, enim assumenda
                     autem cupiditate? Molestias, eaque corrupti.</p>
             </div>
         </div>
         <div class="row">
-            <div class="col">
-                <h2>Reviews</h2>
+            <div class="col-12 text-center mt-5">
+                <h2 id="aboutUsTitle">Reviews</h2>
+            </div>
+            <div class="col-sm-6 mt-sm-4">
+                <iframe
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbrandon.jeffries.52%2Fposts%2F5563984140307200&show_text=true&width=500"
+                    width="100%" height="186" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div class="col-sm-6 mt-sm-4">
+                <iframe
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fwenceslao.garcia.988%2Fposts%2F2122918031219996&show_text=true&width=500"
+                    width="100%" height="186" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div class="col-sm-6 mt-sm-4">
+                <iframe
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Frachel.ward.904750%2Fposts%2F10158434392011561&show_text=true&width=500"
+                    width="100%" height="188" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div class="col-sm-6 mt-sm-4">
+                <iframe
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmissamanda.maleki%2Fposts%2F425490226101455&show_text=true&width=500"
+                    width="100%" height="185" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
             </div>
         </div>
     </div>
@@ -157,9 +187,11 @@
         </div>
     </footer>
     <!-- jQuery must come fist, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endbuild -->
 </body>
 
 </html>

@@ -1,14 +1,30 @@
-.w-100 {
-  width: 100% !important;
-  height: 50vh; }
-
 .jumbotron {
   background: url("/img/cuttingBoard2.jpg");
   background-size: cover;
   background-position: center; }
 
+#aboutUsBackground {
+  background: url("/img/cuttingBoard2.jpg");
+  background-size: cover;
+  background-position: center; }
+
+@media screen and (min-width: 960px) {
+  #menuBackground {
+    background: url("/img/MenuBackground2.jpg");
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat; } }
+
+#aboutUsContent {
+  background: url("/img/pinkButcherPaper.jpg");
+  border: 1px solid black; }
+
+#aboutUsTitle {
+  color: whitesmoke;
+  text-decoration: underline; }
+
 .navbar {
-  background-color: #bc4749;
+  background-color: #C73E48;
   border: 2px solid black; }
 
 #navButton {
@@ -18,18 +34,18 @@ h1,
 h2 {
   font-family: "Roboto Slab", sans;
   font-weight: 700;
-  color: #bc4749; }
+  color: #C73E48; }
 
 #teamHeader {
   font-family: "Roboto Slab", sans;
   font-weight: 700;
-  color: #bc4749;
+  color: whitesmoke;
   text-decoration: underline; }
 
 #eventHeader {
   font-family: "Roboto Slab", sans;
   font-weight: 700;
-  color: #bc4749;
+  color: #C73E48;
   text-decoration: underline; }
 
 h2 {
@@ -42,15 +58,17 @@ h2 {
   background-position: center;
   font-family: "Roboto Slab", sans;
   font-weight: 900;
-  color: whitesmoke;
+  color: #451D20;
   box-shadow: 10px 10px 5px grey;
   border: black, solid; }
+  .card .cardContent {
+    background: rgba(204, 204, 204, 0.5); }
   .card #eventCardTitle {
     text-decoration: underline;
-    color: whitesmoke; }
+    color: #C73E48; }
 
 .site-footer {
-  background-color: #bc4749;
+  background-color: #C73E48;
   padding: 20px 0;
   border: 2px solid black; }
 
@@ -72,7 +90,20 @@ h2 {
   font-family: "Caveat", cursive;
   font-weight: 800; }
 
-#menuContent p {
+p {
   font-family: "Caveat", cursive;
   font-size: larger;
   font-weight: 500; }
+
+.w-100 {
+  width: 100% !important;
+  height: 50vh; }
+
+.carousel-item {
+  overflow: hidden;
+  height: 60vh; }
+
+@media screen and (max-width: 4000px) and (min-width: 601px) {
+  .w-100 {
+    width: 100% !important;
+    height: 80vh; } }

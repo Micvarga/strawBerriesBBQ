@@ -1,17 +1,11 @@
 //this code helps keep all carousel imgs the same size
-$color-primary: #bc4749;
+$color-primary: #C73E48;
 $color-secondary: whitesmoke;
-$color-green: #38b000;
+$color-green: #6A964F;
+$color-darkSienna: #451D20;
 
 $header-font: "Roboto Slab", sans;
 $body-font: "Caveat", cursive;
-
-
-.w-100 {
-    width: 100% !important;
-    height: 50vh;
-}
-
 
 .jumbotron {
     background: url('/img/cuttingBoard2.jpg');
@@ -19,8 +13,35 @@ $body-font: "Caveat", cursive;
     background-position: center;
 }
 
+#aboutUsBackground {
+    background: url('/img/cuttingBoard2.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+@media screen and (min-width:960px) {
+    #menuBackground {
+        background: url('/img/MenuBackground2.jpg');
+        background-position-x: right;
+        background-position-y: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+#aboutUsContent {
+    background: url('/img/pinkButcherPaper.jpg');
+    border: 1px solid black;
+}
+
+#aboutUsTitle {
+    color: $color-secondary;
+    text-decoration: underline;
+}
+
 .navbar {
-    background-color: #bc4749;
+    background-color: $color-primary;
     border: 2px solid black;
 }
 
@@ -38,7 +59,7 @@ h2 {
 #teamHeader {
     font-family: $header-font;
     font-weight: 700;
-    color: $color-primary;
+    color: $color-secondary;
     text-decoration: underline;
 }
 
@@ -60,13 +81,17 @@ h2 {
     background-position: center;
     font-family: $header-font;
     font-weight: 900;
-    color: $color-secondary;
+    color: $color-darkSienna;
     box-shadow: 10px 10px 5px grey;
     border: black, solid;
 
+    .cardContent {
+        background: rgba(204, 204, 204, 0.5);
+    }
+
     #eventCardTitle {
         text-decoration: underline;
-        color: $color-secondary;
+        color: $color-primary;
     }
 }
 
@@ -97,11 +122,10 @@ h2 {
 }
 
 #menuContent {
-
-    h5,
-    {
-    font-family: $body-font ;
-    font-weight: 800;
+    h5 {
+        font-family: $body-font ;
+        font-weight: 800;
+    }
 }
 
 p {
@@ -109,4 +133,22 @@ p {
     font-size: larger;
     font-weight: 500;
 }
+
+
+.w-100 {
+    width: 100% !important;
+    height: 50vh;
+}
+
+.carousel-item {
+    overflow: hidden;
+    height: 60vh;
+}
+
+
+@media screen and (max-width:4000px) and (min-width:601px) {
+    .w-100 {
+        width: 100% !important;
+        height: 80vh;
+    }
 }

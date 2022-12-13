@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS -->
+
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="CSS/styles.css">
+    <!-- endbuild -->
 
-    <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
@@ -77,12 +78,13 @@
         </ol>
     </nav>
 
-    <div class="container">
+    <div class="container" id="menuBackground">
         <div class="row">
             <div class="col text-center">
                 <h1>Menu</h1>
             </div>
         </div>
+
         <div class="row" id="menuContent">
             <div class="col-12">
                 <h2>Meats</h2>
@@ -110,8 +112,8 @@
                     <i id="bolognaSandwhichBtn" class="fa fa-camera btn"></i>
                 </p>
             </div>
-        </div>
-        <div class="row" id="menuContent">
+
+
             <div class="col-12">
                 <h2>Shareables/Snacks</h2>
                 <h5>Pork Belly Burnt Ends</h5>
@@ -119,25 +121,18 @@
                     1/2lb .....................................10
                     <i id="burntEndsBtn" class="fa fa-camera btn"></i>
                 </p>
-            </div>
-            <div class="col-12">
                 <h5>Smoked Texas Hot Links</h5>
                 <p>Hot and spicy, like the Texas sun..........7
                     <i id="hotLinksBtn" class="fa fa-camera btn">
                     </i>
                 </p>
             </div>
-        </div>
-        <div class="row" id="menuContent">
+
             <div class="col-12">
                 <h2>Sides by Mama Jeffries</h2>
                 <h5>Mac N Cheese..........4<i id="macNCheeseBtn" class="fa fa-camera btn"></i></h5>
                 <h5>Corn Bake..........4<i id="cornBakeBtn" class="fa fa-camera btn"></i></h5>
                 <h5>Spicy Cole Slaw..........4<i id="spicyColeSlawBtn" class="fa fa-camera btn"></i></h5>
-            </div>
-        </div>
-        <div class="row" id="menuContent">
-            <div class="col-12">
                 <h2>Desserts</h2>
                 <h5>Smoked Apple Pie..........4<i id="smokedApplePieBtn" class="fa fa-camera btn"></i></h5>
                 <h5>Snickerdoodle S'More..........7<i id="snickerdoodleBtn" class="fa fa-camera btn"></i></h5>
@@ -337,10 +332,12 @@
         </div>
     </footer>
     <!-- jQuery must come fist, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <!-- endbuild -->
 </body>
 
 </html>

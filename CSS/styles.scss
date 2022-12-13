@@ -70,10 +70,6 @@ h2 {
     text-decoration: underline;
 }
 
-h2 {
-    font-family: $header-font;
-    font-style: italic;
-}
 
 .card {
     background: url('/img/cuttingBoard2.jpg');
@@ -143,6 +139,14 @@ p {
 .carousel-item {
     overflow: hidden;
     height: 60vh;
+}
+
+#contactUsContent {
+
+    h2,
+    p {
+        text-align: center;
+    }
 }
 
 

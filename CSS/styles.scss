@@ -20,16 +20,6 @@ $body-font: "Caveat", cursive;
 
 }
 
-@media screen and (min-width:960px) {
-    #menuBackground {
-        background: url('/img/MenuBackground2.jpg');
-        background-position-x: right;
-        background-position-y: center;
-        background-repeat: no-repeat;
-
-    }
-}
-
 #aboutUsContent {
     background: url('/img/pinkButcherPaper.jpg');
     border: 1px solid black;
@@ -43,6 +33,10 @@ $body-font: "Caveat", cursive;
 .navbar {
     background-color: $color-primary;
     border: 2px solid black;
+}
+
+#breadcrumbBar {
+    background-color: #6A964F;
 }
 
 #navButton {
@@ -118,6 +112,7 @@ h2 {
 }
 
 #menuContent {
+
     h5 {
         font-family: $body-font ;
         font-weight: 800;
@@ -155,4 +150,15 @@ p {
         width: 100% !important;
         height: 80vh;
     }
+}
+
+@media screen and (min-width:960px) {
+    #menuBackground {
+        background: url('/img/MenuBackground2.jpg');
+        background-position-x: right;
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+
+    }
+
 }

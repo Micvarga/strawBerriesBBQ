@@ -122,14 +122,11 @@ h2 {
 }
 
 #menuContent {
-
-    h5,
-    {
-    font-family: $body-font ;
-    font-weight: 800;
+    h5 {
+        font-family: $body-font ;
+        font-weight: 800;
+    }
 }
-}
-
 
 p {
     font-family: $body-font;
